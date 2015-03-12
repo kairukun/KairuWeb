@@ -6,52 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Webpage</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="animate.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
       <style>
-h1 {
+.heading h1 {
 	text-align: center;
-    font-size: 60px;
-    padding-top: 50px;
-    font-family: sans-serif;
+  font-size: 60px;
+  padding-top: 50px;
+  font-family: sans-serif;
 }
-.nav {
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.nav li {
-	display:inline;
-}
+
 .interwebs p {
+  padding-top:40px;
 	text-align:left;
-    padding-left:30px;
-    font-size: 20px;
-    font-style: serif;
+  padding-left:30px;
+  font-size: 20px;
 }
+.doge {
+    position: fixed;
+    top: 32px;
+    right: 5px;
+}
+.aboutme p {
+  padding-left:20px;
+  font-size:17px;
+  font-family:sans-serif;
+  margin-right:40px;
+}
+.video {
+  align
+}
+
       </style>
   </head>
   <body>
-    <h1 class="animate bounceInRight">Interwebs Of America</h1>
 
-      <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container">
-          <ul class="nav navbar-nav">
-              <li><a href="#">Hello</a></li>
-              <li><a href="#">Hello</a></li>
-          </ul>
-          </div>
-      </nav>
-      <div class="interwebs">
-              <p>The Interwebs Proudly Present you with the entry of the year for Website of the Year</p>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Programming Class</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Page 1</a></li>
+        <li><a href="#">Page 2</a></li> 
+        <li><a href="#">Page 3</a></li> 
+        <li><a href="#">Page 4</a></li>
+        <li><a href="#">Page 5</a></li> 
+        <li><a href="#">Page 6</a></li> 
+        <li><a href="#">Page 7</a></li>
+        <li><a href="#">Page 8</a></li> 
+        <li><a href="#">Page 9</a></li> 
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div class="heading">
+      <h1 class="animated bounceInRight">Interwebs Of America</h1>
       </div>
-<div class="wow bounceInUp">
-  <img src="wow-1.gif">
+      <div class="interwebs">
+              <p class="lead">The Interwebs Proudly Present you with the entry of the year for Website of the Year</p>
+      </div>
+      <div class="aboutme">
+        <p class="text-left">I am a programmer and I love Video Games, Anime, And Writing. I currently work for the company Invertmouse, Which as of recently released the demo for title <strong>Cursed Sight</strong> Which I worked on.</p>
+      </div>
+      <div class="video">
+ 
+      </div>
+
+<div class="doge">
+  <img src="/pics/wow-1.gif">
 </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/wow.min.js"></script>
-		<script>
- new WOW().init();
-		</script>
+
   </body>
 </html>
